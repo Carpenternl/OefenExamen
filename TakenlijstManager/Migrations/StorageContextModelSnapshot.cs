@@ -16,6 +16,25 @@ namespace TakenlijstManager.Migrations
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "8.0.14");
 
+            modelBuilder.Entity("TakenlijstManager.Models.StatusModel", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Naam")
+                        .IsRequired()
+                        .HasMaxLength(40)
+                        .HasColumnType("TEXT");
+
+                    b.Property<int>("VolgendeStatus")
+                        .HasColumnType("INTEGER");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("StatusModel");
+                });
+
             modelBuilder.Entity("TakenlijstManager.Models.TaakModel", b =>
                 {
                     b.Property<int>("Id")
