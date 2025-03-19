@@ -1,4 +1,9 @@
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using TakenlijstManager.Data;
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<StorageContext>(options =>
+    options.UseSqlite(builder.Configuration.GetConnectionString("StorageContext") ?? throw new InvalidOperationException("Connection string 'StorageContext' not found.")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
