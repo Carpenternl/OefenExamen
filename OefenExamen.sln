@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35219.272
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{CE20F121-5826-4374-865D-DFB579D838FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TakenlijstManager", "TakenlijstManager\TakenlijstManager.csproj", "{97B762CD-12A1-429C-9F35-5769D6401A9D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE20F121-5826-4374-865D-DFB579D838FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE20F121-5826-4374-865D-DFB579D838FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE20F121-5826-4374-865D-DFB579D838FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE20F121-5826-4374-865D-DFB579D838FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97B762CD-12A1-429C-9F35-5769D6401A9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97B762CD-12A1-429C-9F35-5769D6401A9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97B762CD-12A1-429C-9F35-5769D6401A9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97B762CD-12A1-429C-9F35-5769D6401A9D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B2C6930E-D350-4863-A8BE-65D932B69E36}
+	EndGlobalSection
+EndGlobal
